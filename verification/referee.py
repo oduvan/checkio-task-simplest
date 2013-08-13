@@ -16,4 +16,4 @@ api.add_listener(ON_CONNECT, CheckiOReferee([
                 ['6+7=?', [6,7], 13, 'EXT2']
             ]
         ]
-    ]))
+    ]).on_ready)
